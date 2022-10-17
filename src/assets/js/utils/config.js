@@ -1,5 +1,5 @@
 /**
- * @author Luuxis
+ * @author TnTVlogs
  * @license CC-BY-NC 4.0 - https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -7,8 +7,8 @@ const pkg = require('../package.json');
 const fetch = require("node-fetch")
 let url = pkg.user ? `${pkg.url}/${pkg.user}` : pkg.url
 
-let config = `${url}/launcher/config-launcher/config.json`;
-let news = `${url}/launcher/news-launcher/assets/php/news/GetNews.php`;
+let config = `${url}/var/www/html/launcher/config-launcher/config.json`;
+let news = `${url}/var/www/html/launcher/news-launcher/assets/php/news/GetNews.php`;
 
 class Config {
     GetConfig() {
