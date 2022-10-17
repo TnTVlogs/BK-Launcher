@@ -1,11 +1,11 @@
 {
     "name": "Baikraft-Kingdoms-Launcher",
     "preductname": "Launcher oficial de Baikraft Kingdoms",
-    "version": "0.1-PRE_ALPHA",
+    "version": "1.0.1",
     "description": "Launcher oficial de la serie de minecraft Baikraft Kindoms",
     "main": "src/app.js",
     "author": "TnTVlogs",
-    "url": "streamers.sytes.net",
+    "url": "http://streamers.sytes.net",
     "engines": {
         "node": "16.x.x"
     },
