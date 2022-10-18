@@ -64,12 +64,19 @@
     height: 37px;
     border-radius: 20px;
     border: none;
-    background: #00bd7a;
+    background: #efe03d;
     font: normal normal bold 20px/25px Poppins;
     color: #121212;
     margin: 15px 0;
-    box-shadow: 0 0 5px #00bd7a;
+    box-shadow: 0 0 5px #efe03d;
 }
+
+.play-btn:hover {
+    background: #aaa030;
+    box-shadow: 0 0 5px #aaa030;
+    border: 4px solid #aaa030;
+}
+
 
 .download-content {
     position: absolute;
@@ -98,7 +105,7 @@
 }
 
 .progress-bar::-webkit-progress-value {
-    background-color: #00bd7a;
+    background-color: #efe03d;
     border-radius: 10px;
 }
 
@@ -229,12 +236,15 @@
     background-color: #292929;
     border-radius: 10px;
     transition: opacity 1s;
+    transition: height 1s;
     opacity: .4;
 }
 
 .server:hover {
     transition: opacity 1s;
     opacity: 1;
+    transition: height 0.8s;
+    height: 300px;
 }
 
 .server-img {

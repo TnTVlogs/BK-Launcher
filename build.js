@@ -19,12 +19,6 @@ builder.build({
                 arch: ["x64"]
             }],
         },
-        nsis: {
-            oneClick: true,
-            allowToChangeInstallationDirectory: false,
-            createDesktopShortcut: true,
-            runAfterFinish: true
-        },
         mac: {
             icon: "./src/assets/images/icon.icns",
             category: "public.app-category.games",
@@ -42,6 +36,12 @@ builder.build({
                 target: "tar.gz",
                 arch: ["x64"]
             }]
+        },
+        nsis: {
+            oneClick: true,
+            allowToChangeInstallationDirectory: false,
+            createDesktopShortcut: true,
+            runAfterFinish: true
         }
     }
 }).then(() => {
